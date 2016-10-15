@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">    		  	  		      
+    <TextView android:layout_width="fill_parent" 
+    		  android:layout_height="wrap_content"
+    	  	  android:id="@+id/testText" 
+    		  android:text="BEFORE KEYSTROKE DETECTED TEXT!" 
+    		  android:textColor="#FFDDAA" 
+    		  android:textSize="19px"/>    		  
+	<Button android:text="Long-Click Here to Access ContextMenu" 
+			android:id="@+id/contextButton"
+			android:nextFocusUp="@+id/thirdButton"
+			android:nextFocusDown="@+id/secondButton"			
+			android:layout_gravity="center"			
+			android:layout_width="wrap_content"			 
+			android:layout_height="wrap_content"/>						
+	<Button android:text="Second Button" 
+			android:id="@+id/secondButton"
+			android:nextFocusUp="@+id/contextButton"
+			android:nextFocusDown="@+id/thirdButton"						
+			android:layout_gravity="center"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>			
+	<Button android:text="Third Button" 
+			android:id="@+id/thirdButton"
+			android:nextFocusUp="@+id/secondButtonButton"
+			android:nextFocusDown="@+id/contextButton"						
+			android:layout_gravity="center"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>			
+</LinearLayout>

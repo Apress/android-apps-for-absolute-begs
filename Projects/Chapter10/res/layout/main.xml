@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">    
+	<TextView android:layout_width="fill_parent" 
+			  android:layout_height="wrap_content" 
+			  android:text="Click Buttons Below to Query, Add, Modify, Delete" 
+			  android:paddingTop="25dip" 
+			  android:paddingBottom="50dip"/>			  
+	<Button   android:text="Click to Query Contacts Database" 
+			  android:id="@+id/queryButton" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content" 
+			  android:layout_gravity="center" />			  
+	<Button   android:text="Click to Add A Contact to the Database" 
+			  android:id="@+id/addContactButton" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content" 
+			  android:layout_gravity="center" />			  
+	<Button   android:text="Click to Modify the Contact in the Database" 
+			  android:id="@+id/modifyPhoneButton" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content" 
+			  android:layout_gravity="center" />			  
+	<Button   android:text="Click to Delete the Contact in the Database" 
+			  android:id="@+id/deleteContactButton" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content" 
+			  android:layout_gravity="center" />			  
+</LinearLayout>

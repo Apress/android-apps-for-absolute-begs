@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/buttonone"
+          android:icon="@drawable/image1icon"
+          android:title="@string/showimage1" />
+          
+    <item android:id="@+id/buttontwo"
+          android:icon="@drawable/image2icon"
+          android:title="@string/showimage2" />
+          
+    <item android:id="@+id/buttonthree"
+          android:icon="@drawable/menu3icon"
+          android:title="@string/showwhite" />
+          
+    <item android:id="@+id/buttonfour"
+          android:icon="@drawable/menu4icon"
+          android:title="@string/showblack" />
+          
+    <item android:id="@+id/buttonfive"
+          android:icon="@drawable/menu5icon"
+          android:title="@string/showalert" />
+          
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+   <SlidingDrawer
+     android:id="@+id/drawer"
+     android:layout_width="320dip"
+     android:layout_height="440dip"
+     android:orientation="vertical"
+     android:handle="@+id/handle"
+     android:content="@+id/content">
+     
+      <ImageView
+         android:id="@+id/handle"
+         android:layout_width="48dip"
+         android:layout_height="48dip"
+		 android:src="@drawable/icon"  />
+		 
+	  <AnalogClock android:id="@+id/content"
+         android:background="#D0A0A0"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent" />
+         
+   </SlidingDrawer>
+   
+</RelativeLayout>

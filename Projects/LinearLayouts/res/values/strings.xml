@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textareaone">Text Area One!</string>
+    <string name="textareatwo">Text Area Two!</string>
+    <string name="app_name">SlidingDrawers_Example</string>
+</resources>
